@@ -1,37 +1,86 @@
-#EXTM3U
+﻿#EXTM3U
 
-#EXTINF:-1 tvg-id="C5N.ar" tvg-name="C5N" group-title="YouTube",C5N
-http://192.168.100.106:5000/stream?url=https://www.youtube.com/c/c5n/live
+#EXTINF:-1 tvg-id="AmericaTV.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png",America TV
+https://raw.githubusercontent.com/MachineSystems/archived_m3u8/main/america_hls.m3u8
+#Fuente: https://iptv-org.github.io/iptv/languages/spa.m3u
 
-#EXTINF:-1 tvg-id="CronicaTV.ar" tvg-name="Crónica TV" group-title="YouTube",Crónica TV
-http://192.168.100.106:5000/stream?url=https://www.youtube.com/c/cronicatv/live
+#EXTINF:-1 tvg-id="A24.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/A24-logo.svg/423px-A24-logo.svg.png",A24
+https://g1.vxral-hor.transport.edge-access.net/a15/ngrp:a24-100056_all/a24-100056.m3u8
+#Fuente: https://iptv-org.github.io/iptv/languages/spa.m3u
 
-#EXTINF:-1 tvg-id="LaNacionPlus.ar" tvg-name="LN+" group-title="YouTube",LN+
-http://192.168.100.106:5000/stream?url=https://www.youtube.com/c/LaNacionMas/live
+#EXTINF:-1 tvg-id="TVP" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/TVP_-_Televisi%C3%B3n_P%C3%BAblica_%282021%29.svg/320px-TVP_-_Televisi%C3%B3n_P%C3%BAblica_%282021%29.svg.png",TV Publica
+https://g2.vxral-hor.transport.edge-access.net/b16/ngrp:c7_vivo01_dai_source-20001_all/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Canal26.ar" tvg-name="Canal 26" group-title="YouTube",Canal 26
-http://192.168.100.106:5000/stream?url=https://www.youtube.com/c/canal26/live
+#EXTINF:-1 tvg-id="Canal26.ar" tvg-id="45089" tvg-name="Canal 26" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8c/LogoCanal26.png", Canal 26
+http://200.115.193.177/live/26hd-720/master.m3u8
 
-#EXTINF:-1 tvg-id="TVPublica.ar" tvg-name="Televisión Pública" group-title="YouTube",Televisión Pública
-http://192.168.100.106:5000/stream?url=https://www.youtube.com/user/TVPublicaArgentina/live
+#EXTINF:-1 tvg-id="Telemax.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/13/Telemax_Argentina_%282018%29.png",TeleMax
+http://live-edge01.telecentro.net.ar/live/smil:tlx.smil/master.m3u8
 
-#EXTINF:-1 tvg-id="TodoNoticias.ar" tvg-name="TN Todo Noticias" group-title="YouTube",TN Todo Noticias
-http://192.168.100.106:5000/stream?url=https://www.youtube.com/c/todonoticias/live
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/fNURpai.png",Canal Ciudad
+https://g5.proy-hor.transport.edge-access.net/a08/ngrp:gcba_video4-100042_all/Playlist.m3u8?sense=true
+#Fuente: https://iptv-org.github.io/iptv/languages/spa.m3u
 
-#EXTINF:-1 tvg-id="AméricaTV.ar" tvg-name="América TV" group-title="YouTube",América TV
-http://192.168.100.106:5000/stream?url=https://www.youtube.com/c/Americatv/live
+#EXTINF:-1 tvg-id="ElTrece.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Logo_de_eltrece_lanzado_en_2016.png/512px-Logo_de_eltrece_lanzado_en_2016.png",El Trece
+https://live-01-02-eltrece.vodgc.net/eltrecetv/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-id="gat" tvg-name="michi" group-title="YouTube",michi
-http://192.168.100.106:5000/stream?url=https://www.youtube.com/@SoulfulRhythmsLofi/live
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a5/Net_TV_logo.png",Net TV
+https://unlimited1-us.dps.live/nettv/nettv.smil/nettv/livestream2/chunks.m3u8
 
-#EXTINF:-1 tvg-id="IPNoticias.ar" tvg-name="IP Noticias" group-title="YouTube",IP Noticias
-http://192.168.100.106:5000/stream?url=https://www.youtube.com/channel/UC1J9Q8vaYtDuyT-ehh4YBAg/live
+#EXTINF:-1 tvg-logo="https://es.wikipedia.org/wiki/Informaci%C3%B3n_Period%C3%ADstica#/media/Archivo:Informaci%C3%B3n_Period%C3%ADstica_IP_Logo.svg",IP TV
+https://d1nmqgphjn0y4.cloudfront.net/live/ip/live.isml/live-audio_1=128000-video=729984.m3u8
 
-#EXTINF:-1 tvg-id="Encuentro.ar" tvg-name="Encuentro" group-title="YouTube",Encuentro
-http://192.168.100.106:5000/stream?url=https://www.youtube.com/user/encuentro/live
+#EXTINF:-1 tvg-logo="https://canal5tigretv.com.ar/static/custom/logo-grande.png",5TV (Tigre)
+https://59537faa0729a.streamlock.net/cincotv/cincotv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Pakapaka.ar" tvg-name="Pakapaka" group-title="YouTube",Pakapaka
-http://192.168.100.106:5000/stream?url=https://www.youtube.com/user/CanalPakapaka/live
+#EXTINF:-1 tvg-logo="",TELEFE
+https://is-tucuman.cdn.rcs.net.ar/mnp/telefe_hls/playlist.m3u8
 
-#EXTINF:-1 tvg-id="QMusicaTV" tvg-name="QMusicaTV" group-title="YouTube",QMusicaTV
-http://192.168.100.106:5000/stream?url=https://www.youtube.com/@quieromusicatv/live
+#EXTINF:-1 tvg-logo="https://i.imgur.com/FscV0as.png",Tierramia TV (Opcion 1)
+https://live-edge01.telecentro.net.ar/live/smil:trm.smil/chunklist_w68879463_b1864000_sleng.m3u8
+
+#EXTINF:-1 tvg-id="80293" tvg-name="Terramia TV" tvg-logo="https://i.imgur.com/FscV0as.png", Terramia TV (Opcion 2)
+http://live-edge01.telecentro.net.ar/live/smil:trm.smil/chunklist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-id="MusicTop.ar" tvg-logo="https://i.imgur.com/dKpLbh6.png",Music Top (Opcion 1)
+http://live-edge01.telecentro.net.ar/live/msctphd-720/playlist.m3u8
+
+#EXTINF:-1 tvg-id="MusicTop.ar" tvg-name="Music Top" tvg-logo="https://i.imgur.com/dKpLbh6.png", Music Top (Opcion 2)
+http://live-edge01.telecentro.net.ar/live/smil:musictop.smil/playlist.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://canal5tigretv.com.ar/static/custom/logo-grande.png",5TV (Tigre)
+https://59537faa0729a.streamlock.net/cincotv/cincotv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/6miysb8.png",24/7 Canal de Noticias (Neuquen)
+http://59c5c86e10038.streamlock.net:1935/6605140/6605140/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wCQJuaU.jpg",5RTV (Santa Fe)
+http://api.new.livestream.com/accounts/22636012/events/8242619/live.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/France24.png",France 24 Francia
+http://static.france24.com/live/F24_ES_LO_HLS/live_web.m3u8
+
+#EXTINF:-1 tvg-logo="",Canal Encuentro
+http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0036
+
+#EXTINF:-1 tvg-logo="https://tv.unlp.edu.ar/wp-content/uploads/2018/10/tvulogotexto.png",TVU (Universidad de La Plata)
+https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8
+
+#EXTINF:-1 tvg-id="TastemadeenEspanol.us" tvg-country="LATAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/8s6aRwv.png" group-title="Cooking",Tastemade en Español (1080p)
+#EXTINF:-1 tvg-id="TastemadeenEspanol.us" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/8s6aRwv.png" group-title="Cooking",Tastemade en Español (1080p)
+https://tastemadees16intl-samsungmexico.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="",Canal de la Musica
+http://g3.vxral-slo.transport.edge-access.net/a09/ngrp:CM_CanaldelaMusica-100044_all/CM_CanaldelaMusica-100044_720p.m3u8
+
+#EXTINF:-1 tvg-id="ElGourmetSur.ar" tvg-logo="",El Gourmet
+https://amc-elgoourmet-1.plex.wurl.com/manifest/playlist_1920x1080_4200k.m3u8
+
+#EXTINF:-1 tvg-id="Telesur.ve" tvg-logo="",TeleSur
+https://cdnesmain.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a6/Radio-Disney.png" radio="true",Radio Disney
+https://24253.live.streamtheworld.com/DISNEY_ARG_BA.mp3?dist=web-radiodisney-disneylatino
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bc/Popradio.gif" radio="true",POP Radio
+https://ny2.stweb.tv/popradio/live32/chunks.m3u8?nimblesessionid=89470573
